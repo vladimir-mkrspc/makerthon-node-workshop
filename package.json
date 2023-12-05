@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "nodemonConfig": {
-    "ext": "html,css,js,json,hbs,mustache",
+    "ext": "html,css,js,json",
     "ignore": [
       "public/*"
     ]
