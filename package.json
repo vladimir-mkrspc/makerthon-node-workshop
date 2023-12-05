@@ -8,6 +8,12 @@
   "scripts": {
     "start": "node server.js"
   },
+  "nodemonConfig": {
+    "ext": "html,css,js,json,hbs,mustache",
+    "ignore": [
+      "public/*"
+    ]
+  },
   "dependencies": {
   }
 }
