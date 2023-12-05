@@ -1,0 +1,28 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js -e html,js,css,mustache"
+  },
+  "nodemonConfig": {
+    "ext": "html,css,js,json,hbs,mustache",
+    "ignore": [
+      "public/*"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "connect-livereload": "^0.6.1",
+    "express": "^4.16.1",
+    "express-handlebars": "^7.1.2",
+    "express-nunjucks": "^3.1.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.0.2",
+    "nunjucks": "^3.2.4",
+    "reload": "^3.2.1"
+  }
+}
